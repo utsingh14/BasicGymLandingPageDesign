@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: whitesmoke;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    background-image: url(../img/bg.jpg);
+    background-color: #cccccc;
+}
+
+.left {
+    position: absolute;
+    display: inline-block;
+    /* border: 2px solid red; */
+    top: 12px;
+    left: 34px;
+}
+
+.left img {
+    width: 150px;
+    filter: invert(100%);
+}
+
+.mid {
+    display: block;
+    width: 45%;
+    margin: 10px auto;
+    /* border: 2px solid red; */
+
+}
+
+.right {
+    position: absolute;
+    display: inline-block;
+    /* border: 2px solid red; */
+    top: 35px;
+    right: 34px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(169, 163, 163);
+}
+
+.btn {
+    margin: 10px 9px;
+    font-family: "Source Code Pro", monospace;
+    /* background-color: black; */
+    background-color: rgb(27, 18, 18);
+    color: white;
+    padding: 4px 4px;
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+    border-color: aliceblue;
+}
+
+.btn:hover {
+    background-color: rgb(82, 86, 89);
+}
+
+.container {
+    border: 2px solid white;
+    /* margin: 80px 100px; */
+    margin: 80px 82px 80px 800px;
+    width: 33%;
+    border-radius: 10px;
+    /* background-color: black; */
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 70%;
+    padding: 8px;
+    border: 2px solid black;
+    margin: 5px auto;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.container button {
+    display: block;
+    align-items: self-end;
+    width: 73%;
+    margin: 20px auto;
+}
+
+#form-head {
+    font-size: 40px;
+    text-align: center;
+}
